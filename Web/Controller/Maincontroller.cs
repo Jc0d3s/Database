@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Web.Data;
 using Web.Models;
 
-// Define a generic repository interface
+// Define a generic repository interface.
 public interface IRepository<T> where T : class
 {
     Task<IEnumerable<T>> GetAllAsync();
